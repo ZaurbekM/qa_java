@@ -26,7 +26,7 @@ import java.util.List;
   }
 
   @Test
-    public void testFamily()throws Exception{
+    public void testFamily(){
       Mockito.when(animal.getFamily()).thenReturn("заячьи, беличьи, мышиные, кошачьи, псовые, медвежьи, куньи");
       String expected = "заячьи, беличьи, мышиные, кошачьи, псовые, медвежьи, куньи";
       String actual = feline.getFamily();

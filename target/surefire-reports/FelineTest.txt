@@ -2,7 +2,7 @@
 Test set: FelineTest
 -------------------------------------------------------------------------------
 Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.837 sec <<< FAILURE!
-unnecessary Mockito stubbings(FelineTest)  Time elapsed: 0.038 sec  <<< ERROR!
+unnecessary Mockito stubbings(FelineTest)  Time elapsed: 0.041 sec  <<< ERROR!
 org.mockito.exceptions.misusing.UnnecessaryStubbingException: 
 Unnecessary stubbings detected in test class: FelineTest
 Clean & maintainable test code requires zero unnecessary code.
@@ -15,9 +15,9 @@ Please remove unnecessary stubbings or use 'lenient' strictness. More info: java
 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
 	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
